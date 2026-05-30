@@ -1,17 +1,17 @@
 # 7a) Implementation of go-back-n protocol-Sliding Window
 Implementation of Go-Back-N Protocol – Sliding Window
 
-🎯 Aim
+## 🎯 Aim
 
 To write and execute a program for the Go-Back-N protocol using the sliding window technique.
 
-🛠️ Equipments Required
+## 🛠️ Equipments Required
 
 • 	Personal Computer
 
 • 	Turbo C Compiler
 
-📋 Procedure
+## 📋 Procedure
 1. 	Connect two computers in a Wired/Wireless LAN.
 2. 	Ensure both machines are on the same network and can ping each other.
 3. 	Open a new C file in Code::Blocks or any C IDE and type the program.
@@ -26,7 +26,7 @@ Add: netproto and pthread
 7. 	Choose the file and verify the Go-Back-N protocol operation.
 
 💻 Program
-
+```
 #include <stdio.h>
 
 #define window_size 4  // Assume 7 frames of data are to be sent using Go-Back-N ARQ
@@ -66,9 +66,12 @@ void main() {
 
     printf("\nAll frames sent successfully.\n");
 }
-🖥️ Sample Output
-<img width="1210" height="984" alt="code block 1" src="https://github.com/user-attachments/assets/e8e4b6d8-7bb3-454e-8e02-6349c08a432a" />
+```
+## 🖥️ Sample Output
 
-✅ Result
+<img width="458" height="285" alt="image" src="https://github.com/user-attachments/assets/6a120e1f-5363-4917-b079-a72274199e01" />
+
+
+## ✅ Result
 
 Thus, the Go-Back-N protocol using the sliding window technique was successfully implemented and verified.
